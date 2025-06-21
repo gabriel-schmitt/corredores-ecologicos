@@ -1,23 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="tree.png">
-    <title>Corredor Ecológico Ana</title>
-</head>
-<body>
-    <div>
-        <p>
-            <span style="color: red;">O</span>
-            <span style="color: orange;">I</span>
-            <span style="color: yellow;">E</span>
-            <span style="color: green;">E</span>
-            <span style="color: blue;">E&nbsp;</span>
-            <span style="color: indigo;">A</span>
-            <span style="color: violet;">N</span>
-            <span style="color: red;">A</span>
-        </p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="assets/images/tree.png" />
+    <title>Corredores Ecológicos</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-text">
+        <h1>Conectando a natureza</h1>
+        <p class="subtitle">Preservando vidas</p>
+      </div>
     </div>
-</body>
+    <main class="main-content">
+      <section class="map-section">
+        <h2>Mapa Interativo</h2>
+        <div id="map"></div>
+      </section>
+      <section class="gallery-section">
+        <h2>Imagens ao Vivo</h2>
+        <div class="image-gallery">
+          <img
+            src="assets/images/kazuend-19SC2oaVZW0-unsplash.jpg"
+            alt="Imagem 1"
+          />
+          <img
+            src="assets/images/luca-bravo-ESkw2ayO2As-unsplash.jpg"
+            alt="Imagem 2"
+          />
+          <img
+            src="assets/images/lukasz-szmigiel-2ShvY8Lf6l0-unsplash.jpg"
+            alt="Imagem 3"
+          />
+          <img
+            src="assets/images/steven-kamenar-MMJx78V7xS8-unsplash.jpg"
+            alt="Imagem 4"
+          />
+          <img
+            src="assets/images/kazuend-19SC2oaVZW0-unsplash.jpg"
+            alt="Imagem 1"
+          />
+          <img
+            src="assets/images/luca-bravo-ESkw2ayO2As-unsplash.jpg"
+            alt="Imagem 2"
+          />
+          <img
+            src="assets/images/lukasz-szmigiel-2ShvY8Lf6l0-unsplash.jpg"
+            alt="Imagem 3"
+          />
+          <img
+            src="assets/images/steven-kamenar-MMJx78V7xS8-unsplash.jpg"
+            alt="Imagem 4"
+          />
+          <img
+            src="assets/images/kazuend-19SC2oaVZW0-unsplash.jpg"
+            alt="Imagem 1"
+          />
+          <img
+            src="assets/images/luca-bravo-ESkw2ayO2As-unsplash.jpg"
+            alt="Imagem 2"
+          />
+          <img
+            src="assets/images/lukasz-szmigiel-2ShvY8Lf6l0-unsplash.jpg"
+            alt="Imagem 3"
+          />
+          <img
+            src="assets/images/steven-kamenar-MMJx78V7xS8-unsplash.jpg"
+            alt="Imagem 4"
+          />
+          <img
+            src="assets/images/kazuend-19SC2oaVZW0-unsplash.jpg"
+            alt="Imagem 1"
+          />
+          <img
+            src="assets/images/luca-bravo-ESkw2ayO2As-unsplash.jpg"
+            alt="Imagem 2"
+          />
+          <img
+            src="assets/images/lukasz-szmigiel-2ShvY8Lf6l0-unsplash.jpg"
+            alt="Imagem 3"
+          />
+          <img
+            src="assets/images/steven-kamenar-MMJx78V7xS8-unsplash.jpg"
+            alt="Imagem 4"
+          />
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>Projeto — Corredores Ecológicos &copy; 2025</p>
+    </footer>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="map.js"></script>
+  </body>
 </html>
